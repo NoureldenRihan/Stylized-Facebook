@@ -43,4 +43,28 @@
 .separator {
   width: 100vw;
   border-bottom: 2px solid #1e202c;
+  margin-bottom: 30px;
+}
+
+.sideSection {
+  border: 2px solid #1e2955;
+  border-radius: 30px;
+  padding: 20px 30px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.mainSection {
+  border: 2px solid red;
+  border-radius: 30px;
+  padding: 20px 30px;
+  width: 50%;
+  margin: 15px 0;
+}
+
+.mainPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }

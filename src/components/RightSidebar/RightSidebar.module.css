@@ -1,0 +1,81 @@
+.grouper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+}
+
+.pagesHeader {
+  font-size: 2.5rem;
+  margin-bottom: 14px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.pagePic {
+  width: 40%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.pagePic img {
+  width: 100%;
+  height: 100%;
+}
+
+.pageName {
+  width: 60%;
+  font-size: 1.3rem;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.events i {
+  font-size: 1.8rem;
+  color: yellow;
+  padding: 0 15px 0 0;
+  cursor: pointer;
+}
+
+.events h2 {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.friend {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.picture {
+  width: 19%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.friendName {
+  font-size: 1.8rem;
+}

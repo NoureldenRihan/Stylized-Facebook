@@ -1,0 +1,30 @@
+.shortcutHeader {
+  font-size: 2.5rem;
+  margin-bottom: 14px;
+}
+
+.shortcut {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.shortcutPic {
+  width: 40%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.shortcutPic img {
+  width: 100%;
+  height: 100%;
+}
+
+.shortcutName {
+  width: 60%;
+  font-size: 1.3rem;
+}
