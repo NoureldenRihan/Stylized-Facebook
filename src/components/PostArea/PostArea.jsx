@@ -5,10 +5,7 @@ function PostArea() {
     <div className={style.post}>
       <div className={style.holder}>
         <div className={style.picHolder}>
-          <img
-            src="/Images/Nourelden Rihan Profile Pic.jpg"
-            alt="User Picture"
-          />
+          <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
         </div>
         <input type="text" placeholder="What is on Your Mind ?" />
       </div>

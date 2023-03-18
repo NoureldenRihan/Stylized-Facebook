@@ -22,30 +22,21 @@ function Stories() {
         </div>
         <div className={style.story}>
           <div className={style.user}>
-            <img
-              src="/Images/Nourelden Rihan Profile Pic.jpg"
-              alt="User Photo"
-            />
+            <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
           </div>
           <img src="/Images/Gem20.jpg" alt="Story" />
           <h2 className={style.userName}>Nourelden Rihan</h2>
         </div>
         <div className={style.story}>
           <div className={style.user}>
-            <img
-              src="/Images/Nourelden Rihan Profile Pic.jpg"
-              alt="User Photo"
-            />
+            <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
           </div>
           <img src="/Images/Gem19.jpg" alt="Story" />
           <h2 className={style.userName}>Nourelden Rihan</h2>
         </div>
         <div className={style.story}>
           <div className={style.user}>
-            <img
-              src="/Images/Nourelden Rihan Profile Pic.jpg"
-              alt="User Photo"
-            />
+            <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
           </div>
           <img src="/Images/Gem20.jpg" alt="Story" />
           <h2 className={style.userName}>Nourelden Rihan</h2>

@@ -72,10 +72,7 @@ function Navbar() {
           <i className="Icon bi bi-messenger"></i>
           <i className="Icon bi bi-bell-fill"></i>
           <div className={style.profilePic}>
-            <img
-              src="/images/Nourelden Rihan Profile Pic.jpg"
-              alt="Profile Picture"
-            />
+            <img src="/images/Nourelden Rihan Profile Pic.jpg" alt="Profile" />
           </div>
         </div>
       </nav>

@@ -5,7 +5,7 @@ function Post() {
     <div className="mainSection">
       <div className={style.header}>
         <div className={style.imgHolder}>
-          <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User Pic" />
+          <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
         </div>
         <div className={style.infoHolder}>
           <h2>Nourelden Rihan</h2>
@@ -16,7 +16,7 @@ function Post() {
       <div className={style.body}>
         <h2 className={style.postText}>New Post!</h2>
         <div className={style.postImg}>
-          <img src="/Images/Gem20.jpg" alt="Post Image" />
+          <img src="/Images/Gem20.jpg" alt="Post" />
         </div>
         <div className={style.reactions}>
           <div className={style.reaction}>
@@ -37,10 +37,7 @@ function Post() {
       <div className={style.footer}>
         <div className={style.footerHolder}>
           <div className={style.footerImg}>
-            <img
-              src="/Images/Nourelden Rihan Profile Pic.jpg"
-              alt="User Picture"
-            />
+            <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
           </div>
           <div className={style.comment}>
             <input type="text" placeholder="Write a Comment" />
