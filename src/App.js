@@ -1,5 +1,6 @@
 import "./App.css";
 import LeftSidebar from "./components/LeftSidebar/LeftSidebar";
+import MainFeed from "./components/MainFeed/MainFeed";
 import Navbar from "./components/Navbar/Navbar";
 import RightSidebar from "./components/RightSidebar/RightSidebar";
 
@@ -13,7 +14,7 @@ function App() {
       <div className="globalContainer">
         <div className="mainPage">
           <LeftSidebar />
-          <LeftSidebar />
+          <MainFeed />
           <RightSidebar />
         </div>
       </div>
