@@ -56,6 +56,10 @@
 }
 
 @media (max-width: 992px) {
+  .picHolder {
+    width: 15%;
+  }
+
   .holder input {
     border-radius: 30px;
     padding: 8px 13px;
@@ -68,5 +72,21 @@
 
   .option h2 {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .holder input {
+    border-radius: 30px;
+    padding: 8px 11px;
+  }
+
+  .option i {
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+
+  .option h2 {
+    font-size: 0.7rem;
   }
 }

@@ -99,6 +99,24 @@
   }
 }
 
+@media (max-width: 767px) {
+  .createStory {
+    width: 23%;
+    height: 90px;
+  }
+
+  .createStory i {
+    font-size: 1.1rem;
+    width: 11px;
+    height: 10px;
+    bottom: 14px;
+  }
+
+  .createStory h2 {
+    font-size: 0.7rem;
+  }
+}
+
 .stories {
   display: flex;
   flex-direction: row;
@@ -159,5 +177,22 @@
   .userName {
     margin-bottom: 3px;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .story {
+    width: 23%;
+    height: 90px;
+  }
+
+  .user {
+    width: 20px;
+    height: 20px;
+  }
+
+  .userName {
+    margin-bottom: 1px;
+    font-size: 0.7rem;
   }
 }

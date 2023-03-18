@@ -148,3 +148,31 @@
 .comment i:hover {
   transform: translateY(-2px);
 }
+
+@media (max-width: 767px) {
+  .imgHolder {
+    width: 18%;
+  }
+
+  .infoHolder h2 {
+    font-size: 1.1rem;
+  }
+
+  .header i {
+    font-size: 1.8rem;
+  }
+
+  .postText {
+    padding: 10px 0;
+    font-size: 1.7rem;
+  }
+
+  .reaction i {
+    font-size: 1.2rem;
+    padding: 0 5px 0 0;
+  }
+
+  .reaction h2 {
+    font-size: 1.3rem;
+  }
+}

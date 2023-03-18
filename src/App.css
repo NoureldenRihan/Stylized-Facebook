@@ -68,3 +68,22 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
+@media (max-width: 767px) {
+  .sideSection {
+    display: none;
+  }
+
+  .mainSection {
+    width: 100%;
+  }
+
+  .mainPage {
+    display: block;
+    margin: 0 10px;
+  }
+
+  .separator {
+    margin-bottom: 0;
+  }
+}

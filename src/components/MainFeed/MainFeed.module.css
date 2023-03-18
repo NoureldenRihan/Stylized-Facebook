@@ -5,3 +5,9 @@
   align-items: center;
   width: 53%;
 }
+
+@media (max-width: 767px) {
+  .grouper {
+    width: 100%;
+  }
+}

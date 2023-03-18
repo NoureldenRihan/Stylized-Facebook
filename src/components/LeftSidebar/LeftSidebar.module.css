@@ -4,3 +4,9 @@
   justify-content: center;
   width: 22%;
 }
+
+@media (max-width: 767px) {
+  .grouper {
+    width: 100%;
+  }
+}
