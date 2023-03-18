@@ -28,3 +28,17 @@
   width: 60%;
   font-size: 1.3rem;
 }
+
+@media (max-width: 992px) {
+  .shortcutHeader {
+    font-size: 1.6rem;
+  }
+  .shortcutPic {
+    width: 50%;
+    margin-right: 8px;
+  }
+  .shortcutName {
+    width: 50%;
+    font-size: 0.95rem;
+  }
+}

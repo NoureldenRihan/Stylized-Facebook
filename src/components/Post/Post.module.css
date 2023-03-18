@@ -36,6 +36,16 @@
   font-size: 2rem;
 }
 
+@media (max-width: 992px) {
+  .imgHolder {
+    width: 10%;
+  }
+
+  .infoHolder h2 {
+    font-size: 1.2rem;
+  }
+}
+
 .body {
   display: flex;
   flex-direction: column;

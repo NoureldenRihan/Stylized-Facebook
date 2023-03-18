@@ -79,3 +79,33 @@
 .friendName {
   font-size: 1.8rem;
 }
+
+@media (max-width: 992px) {
+  .pagesHeader {
+    font-size: 1.8rem;
+  }
+  .pagePic {
+    width: 50%;
+  }
+
+  .pageName {
+    width: 50%;
+    font-size: 0.8rem;
+  }
+
+  .events i {
+    font-size: 1.3rem;
+  }
+
+  .events h2 {
+    font-size: 0.9rem;
+  }
+
+  .picture {
+    width: 25%;
+  }
+
+  .friendName {
+    font-size: 1.2rem;
+  }
+}

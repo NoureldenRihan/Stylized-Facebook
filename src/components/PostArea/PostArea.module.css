@@ -54,3 +54,19 @@
 .option h2 {
   font-size: 1.3rem;
 }
+
+@media (max-width: 992px) {
+  .holder input {
+    border-radius: 30px;
+    padding: 8px 13px;
+  }
+
+  .option i {
+    font-size: 1.3rem;
+    padding: 0 10px;
+  }
+
+  .option h2 {
+    font-size: 1rem;
+  }
+}

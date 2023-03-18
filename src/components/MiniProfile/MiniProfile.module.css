@@ -44,3 +44,20 @@
 .sideItems h2 {
   font-size: 1.5rem;
 }
+
+@media (max-width: 992px) {
+  .picture {
+    width: 25%;
+  }
+  .pictureArea h2 {
+    font-size: 1.2rem;
+  }
+
+  .sideItems i {
+    font-size: 1.4rem;
+  }
+
+  .sideItems h2 {
+    font-size: 1.1rem;
+  }
+}
