@@ -1,0 +1,133 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 15px 0;
+}
+
+/* Start Search Section */
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+}
+
+.logo i {
+  font-size: 3rem;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #101322;
+  width: 80%;
+  border: 2px solid #1e202c;
+  border-radius: 30px;
+  margin: 0 0 0 20px;
+  padding: 6px 15px;
+}
+
+.searchbar input {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  width: 100%;
+}
+
+.searchbar i {
+  font-size: 1.75rem;
+}
+
+/* End Search Section */
+/* Start Feed Section */
+
+.feed {
+  width: 40%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.feedIcon {
+  padding: 0 35px;
+}
+
+.feedIcon i {
+  position: relative;
+  display: block;
+  font-size: 2.7rem;
+}
+
+.feedIcon i:after {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  left: -75%;
+  width: calc(100% + 45px);
+  height: 0;
+  transition: 0.2s;
+  background-color: transparent;
+  border-radius: 10px 10px 0 0;
+}
+
+.feedIcon i:hover::after {
+  height: 3.5px;
+  background-color: red;
+}
+
+/* End Feed Section */
+/* Start Profile Section */
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+
+.profile i {
+  position: relative;
+  font-size: 2.2rem;
+  display: block;
+  padding: 0 16px;
+}
+
+.profile i:nth-child(2):after,
+i:nth-child(3):after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: 11px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.profilePic {
+  width: 13%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 0 0 15px;
+}
+
+.profilePic img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* End Profile Section */

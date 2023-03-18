@@ -1,0 +1,46 @@
+.globalContainer {
+  margin: auto;
+}
+
+/* Start Responsive Containers */
+
+/* Small Screens */
+@media (min-width: 767px) {
+  .globalContainer {
+    width: 750px;
+  }
+}
+
+/* Medium Screens */
+@media (min-width: 992px) {
+  .globalContainer {
+    width: 970px;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+  .globalContainer {
+    width: 1170px;
+  }
+}
+
+/* End Responsive Containers */
+
+.Icon {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Icon:hover {
+  transform: translateY(-2px);
+}
+
+.Logo:hover {
+  color: blue;
+}
+
+.separator {
+  width: 100vw;
+  border-bottom: 2px solid #1e202c;
+}
