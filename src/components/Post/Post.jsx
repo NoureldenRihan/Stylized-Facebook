@@ -44,9 +44,9 @@ function Post() {
           </div>
           <div className={style.comment}>
             <input type="text" placeholder="Write a Comment" />
-            <i className="Icon bi bi-camera-fill"></i>
-            <i className="Icon bi bi-card-image"></i>
-            <i className="Icon bi bi-emoji-smile-fill"></i>
+            <i className="bi bi-camera-fill"></i>
+            <i className="bi bi-card-image"></i>
+            <i className="bi bi-emoji-smile-fill"></i>
           </div>
         </div>
       </div>
