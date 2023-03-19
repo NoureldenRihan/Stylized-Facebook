@@ -1,6 +1,12 @@
 import style from "./Post.module.css";
 
 function Post(props) {
+  function like(e) {
+    e.target.style.color === "blue"
+      ? (e.target.style.color = "white")
+      : (e.target.style.color = "blue");
+  }
+
   return (
     <div className="mainSection">
       <div className={style.header}>
@@ -22,7 +28,10 @@ function Post(props) {
         </div>
         <div className={style.reactions}>
           <div className={style.reaction}>
-            <i className="bi bi-hand-thumbs-up-fill"></i>
+            <i
+              className="LikeIcon bi bi-hand-thumbs-up-fill"
+              onClick={like}
+            ></i>
             <h2>Like</h2>
           </div>
           <div className={style.reaction}>
