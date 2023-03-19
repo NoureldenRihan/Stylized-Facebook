@@ -1,10 +1,12 @@
 import style from "./Navbar.module.css";
 
 function Navbar() {
+  // SearchClick() Clears the Searchbar on Click
   function searchClick() {
     document.getElementById("search").value = "";
   }
 
+  // feedClick() removes any fill class from any other feed Icon and applies it to the clicked target Icon
   function feedClick(e) {
     [...document.getElementsByClassName("feedicon")].forEach((element) => {
       if (element.classList.contains("filled")) {
@@ -16,7 +18,6 @@ function Navbar() {
       let fillclass = e.target.className + "-fill filled";
       e.target.className = fillclass;
     }
-    console.log(document.getElementsByClassName("feedicon")[0].className);
   }
 
   return (
@@ -78,7 +79,7 @@ function Navbar() {
           <i className="Icon bi bi-messenger"></i>
           <i className="Icon bi bi-bell-fill"></i>
           <div className={style.profilePic}>
-            <img src="/images/Nourelden Rihan Profile Pic.jpg" alt="Profile" />
+            <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="Profile" />
           </div>
         </div>
       </nav>

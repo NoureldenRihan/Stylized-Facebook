@@ -1,6 +1,14 @@
 import Post from "../Post/Post";
 
 function Posts() {
+  // Each post should have
+  // (postText) which is the original text on the post
+  // (userName) which is the name of the user who posted
+  // (time which) is the time passed since posting
+  // (userImg) which is the image of the user who posted
+  // (postImg) which is the main image in the post
+  // (imgRef) which is a credit link to the author of the image if available (optional)
+
   return (
     <>
       <Post
