@@ -35,6 +35,9 @@ function Navbar() {
         </div>
         <div className={style.feed}>
           <div className={style.icons}>
+            <div className={style.miniFeedLogo}>
+              <i className="Icon bi bi-facebook"></i>
+            </div>
             <div className={style.feedIcon}>
               <i
                 className="Icon feedicon home bi bi-house-door"
@@ -64,6 +67,9 @@ function Navbar() {
                 className="Icon feedicon games bi bi-dpad"
                 onClick={feedClick}
               ></i>
+            </div>
+            <div className={style.miniFeedIcon}>
+              <i className="Icon home bi bi-search"></i>
             </div>
           </div>
         </div>

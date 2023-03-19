@@ -60,22 +60,26 @@
   width: 100%;
 }
 
+.miniFeedIcon,
 .feedIcon {
   padding: 0 35px;
 }
 
 @media (max-width: 992px) {
+  .miniFeedIcon,
   .feedIcon {
     padding: 0 20px;
   }
 }
 
+.miniFeedIcon i,
 .feedIcon i {
   position: relative;
   display: block;
   font-size: 2.7rem;
 }
 
+.miniFeedIcon i:after,
 .feedIcon i:after {
   content: "";
   position: absolute;
@@ -88,9 +92,26 @@
   border-radius: 10px 10px 0 0;
 }
 
+.miniFeedIcon i:hover::after,
 .feedIcon i:hover::after {
   height: 3.5px;
   background-color: red;
+}
+
+.miniFeedLogo {
+  display: none;
+}
+
+.miniFeedLogo i {
+  font-size: 3rem;
+}
+
+.miniFeedLogo i:hover {
+  color: blue;
+}
+
+.miniFeedIcon {
+  display: none;
 }
 
 /* End Feed Section */
@@ -154,7 +175,25 @@
     width: 100%;
   }
 
+  .miniFeedIcon,
+  .miniFeedLogo {
+    display: block;
+  }
+
+  .miniFeedIcon,
   .feedIcon {
-    padding: 0 20px;
+    padding: 0 18px;
+  }
+
+  .miniFeedIcon i:after,
+  .feedIcon i:after {
+    bottom: -18.5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .miniFeedIcon,
+  .feedIcon {
+    padding: 0 10px;
   }
 }
