@@ -24,21 +24,27 @@ function Stories() {
           <div className={style.user}>
             <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
           </div>
-          <img src="/Images/Gem20.jpg" alt="Story" />
+          <a href="https://www.instagram.com/p/Cm1uYNzoX4o/">
+            <img src="/Images/Sunset.jfif" alt="Story" />
+          </a>
           <h2 className={style.userName}>Nourelden Rihan</h2>
         </div>
         <div className={style.story}>
           <div className={style.user}>
             <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
           </div>
-          <img src="/Images/Gem19.jpg" alt="Story" />
+          <a href="https://www.instagram.com/p/Cp7YLS4oO2e/">
+            <img src="/Images/Flower.jfif" alt="Story" />
+          </a>
           <h2 className={style.userName}>Nourelden Rihan</h2>
         </div>
         <div className={style.story}>
           <div className={style.user}>
             <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
           </div>
-          <img src="/Images/Gem20.jpg" alt="Story" />
+          <a href="https://www.instagram.com/p/CnCC8IKIVr6/">
+            <img src="/Images/Bird.jfif" alt="Story" />
+          </a>
           <h2 className={style.userName}>Nourelden Rihan</h2>
         </div>
       </div>
