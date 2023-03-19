@@ -14,7 +14,10 @@ function RightSidebar() {
                   alt="Web Designer refrence"
                 />
               </div>
-              <h2 className={style.pageName}>Remon Magdy</h2>
+              <div className={style.pageInfo}>
+                <h2 className={style.pageName}>Remon Magdy</h2>
+                <h3 className={style.pageDesc}>Designer</h3>
+              </div>
             </div>
           </a>
           <a href="https://nourelden-rihan.web.app/">
@@ -25,7 +28,10 @@ function RightSidebar() {
                   alt="Web Developer refrence"
                 />
               </div>
-              <h2 className={style.pageName}>Nourelden Rihan</h2>
+              <div className={style.pageInfo}>
+                <h2 className={style.pageName}>Nourelden Rihan</h2>
+                <h3 className={style.pageDesc}>Developer</h3>
+              </div>
             </div>
           </a>
         </div>

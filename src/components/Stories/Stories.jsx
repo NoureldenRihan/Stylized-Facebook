@@ -40,12 +40,15 @@ function Stories() {
         </div>
         <div className={style.story}>
           <div className={style.user}>
-            <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
+            <img
+              src="/Images/Remon Magdy Profile Picture.png"
+              alt="ًWeb Designer"
+            />
           </div>
-          <a href="https://www.instagram.com/p/CnCC8IKIVr6/">
-            <img src="/Images/Bird.jfif" alt="Story" />
+          <a href="https://www.linkedin.com/in/remon-magdy-223218230/">
+            <img src="/Images/Remon Magdy Profile Picture.png" alt="Story" />
           </a>
-          <h2 className={style.userName}>Nourelden Rihan</h2>
+          <h2 className={style.userName}>Remon Magdy</h2>
         </div>
       </div>
     </div>
