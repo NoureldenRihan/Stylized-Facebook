@@ -1,22 +1,24 @@
 import style from "./Post.module.css";
 
-function Post() {
+function Post(props) {
   return (
     <div className="mainSection">
       <div className={style.header}>
         <div className={style.imgHolder}>
-          <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
+          <img src={`/Images/${props.userImg}`} alt="User" />
         </div>
         <div className={style.infoHolder}>
-          <h2>Nourelden Rihan</h2>
-          <h3>5 Hours</h3>
+          <h2>{props.userName}</h2>
+          <h3>{props.time}</h3>
         </div>
         <i className="bi bi-three-dots"></i>
       </div>
       <div className={style.body}>
-        <h2 className={style.postText}>New Post!</h2>
+        <h2 className={style.postText}>{props.postText}</h2>
         <div className={style.postImg}>
-          <img src="/Images/Gem20.jpg" alt="Post" />
+          <a href={props.imgRef}>
+            <img src={`/Images/${props.postImg}`} alt="Post" />
+          </a>
         </div>
         <div className={style.reactions}>
           <div className={style.reaction}>
@@ -37,7 +39,7 @@ function Post() {
       <div className={style.footer}>
         <div className={style.footerHolder}>
           <div className={style.footerImg}>
-            <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="User" />
+            <img src={`/Images/${props.userImg}`} alt="User" />
           </div>
           <div className={style.comment}>
             <input type="text" placeholder="Write a Comment" />

@@ -6,6 +6,8 @@
   width: 22%;
 }
 
+/* Start Pages Section */
+
 .pagesHeader {
   font-size: 2.5rem;
   margin-bottom: 14px;
@@ -21,8 +23,8 @@
 }
 
 .pagePic {
-  width: 40%;
-  border-radius: 10px;
+  width: 30%;
+  border-radius: 50%;
   overflow: hidden;
   margin-right: 10px;
 }
@@ -34,8 +36,11 @@
 
 .pageName {
   width: 60%;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
+
+/* End Pages Section */
+/* Start Events Section */
 
 .events {
   display: flex;
@@ -56,12 +61,16 @@
   cursor: pointer;
 }
 
+/* End Events Section */
+/* Start Friends Section */
+
 .friend {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .picture {

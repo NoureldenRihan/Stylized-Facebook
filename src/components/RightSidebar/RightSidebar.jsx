@@ -6,18 +6,28 @@ function RightSidebar() {
       <div className="sideSection">
         <div className={style.pages}>
           <h2 className={style.pagesHeader}>Your Pages</h2>
-          <div className={style.page}>
-            <div className={style.pagePic}>
-              <img src="/Images/Elzero Web School.jpg" alt="Page" />
+          <a href="https://www.linkedin.com/in/remon-magdy-223218230/">
+            <div className={style.page}>
+              <div className={style.pagePic}>
+                <img
+                  src="/Images/Remon Magdy Profile Picture.png"
+                  alt="Web Designer refrence"
+                />
+              </div>
+              <h2 className={style.pageName}>Remon Magdy</h2>
             </div>
-            <h2 className={style.pageName}>Elzero Web School</h2>
-          </div>
-          <div className={style.page}>
-            <div className={style.pagePic}>
-              <img src="/Images/Elzero Web School.jpg" alt="Page" />
+          </a>
+          <a href="https://nourelden-rihan.web.app/">
+            <div className={style.page}>
+              <div className={style.pagePic}>
+                <img
+                  src="/Images/Nourelden Rihan Profile Pic.jpg"
+                  alt="Web Developer refrence"
+                />
+              </div>
+              <h2 className={style.pageName}>Nourelden Rihan</h2>
             </div>
-            <h2 className={style.pageName}>Elzero Web School</h2>
-          </div>
+          </a>
         </div>
       </div>
       <div className="sideSection">
