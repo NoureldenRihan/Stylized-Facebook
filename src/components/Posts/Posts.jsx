@@ -2,6 +2,7 @@ import Post from "../Post/Post";
 
 function Posts() {
   // Each post should have
+  // (id) Which is a unique identifier for the post
   // (postText) which is the original text on the post
   // (userName) which is the name of the user who posted
   // (time which) is the time passed since posting
@@ -12,6 +13,7 @@ function Posts() {
   return (
     <>
       <Post
+        id={1}
         postText={"Aerial View of Road Between Green Grass Field"}
         userName={"Nourelden Rihan"}
         time={"20 mins"}
@@ -22,6 +24,7 @@ function Posts() {
         }
       />
       <Post
+        id={2}
         postText={"Beautiful View of Moraine Lake"}
         userName={"Nourelden Rihan"}
         time={"14 hours"}
@@ -32,6 +35,7 @@ function Posts() {
         }
       />
       <Post
+        id={3}
         postText={"Scenic Photo of A Forest With Sunlight"}
         userName={"Nourelden Rihan"}
         time={"2 days"}

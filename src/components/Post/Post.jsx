@@ -1,11 +1,11 @@
 import style from "./Post.module.css";
 
 function Post(props) {
-  // like() turns the clicked like Icon blue or white according to current state of color
-  function like(e) {
-    e.target.style.color === "blue"
-      ? (e.target.style.color = "white")
-      : (e.target.style.color = "blue");
+  // like() turns the like Icon blue or white according to current state of color
+  function like() {
+    document.getElementById(`Like${props.id}`).style.color === "blue"
+      ? (document.getElementById(`Like${props.id}`).style.color = "white")
+      : (document.getElementById(`Like${props.id}`).style.color = "blue");
   }
 
   return (
@@ -28,10 +28,10 @@ function Post(props) {
           </a>
         </div>
         <div className={style.reactions}>
-          <div className={style.reaction}>
+          <div className={style.reaction} onClick={like}>
             <i
+              id={`Like${props.id}`}
               className="LikeIcon bi bi-hand-thumbs-up-fill"
-              onClick={like}
             ></i>
             <h2>Like</h2>
           </div>
