@@ -46,9 +46,13 @@
   cursor: pointer;
 }
 
-.option i {
+.option img {
   font-size: 1.7rem;
   padding: 0 10px;
+}
+
+.icon {
+  filter: invert(1);
 }
 
 .option h2 {

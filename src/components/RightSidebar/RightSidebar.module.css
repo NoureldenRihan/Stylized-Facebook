@@ -58,11 +58,13 @@
   align-items: center;
 }
 
-.events i {
-  font-size: 1.8rem;
-  color: yellow;
+.events img {
   padding: 0 15px 0 0;
   cursor: pointer;
+}
+
+.icon {
+  filter: invert(1);
 }
 
 .events h2 {

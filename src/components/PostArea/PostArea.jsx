@@ -1,4 +1,7 @@
 import style from "./PostArea.module.css";
+import camera from "../../SVGs/camera-video.svg";
+import card from "../../SVGs/card-image.svg";
+import emoji from "../../SVGs/emoji-smile-fill.svg";
 
 function PostArea() {
   return (
@@ -12,15 +15,15 @@ function PostArea() {
       <hr className={style.separator} />
       <div className={style.options}>
         <div className={style.option}>
-          <i className="bi bi-camera-video-fill" style={{ color: "red" }}></i>
+          <img className={`${style.icon} Icon`} src={camera} alt="camera" />
           <h2>Live Video</h2>
         </div>
         <div className={style.option}>
-          <i className="bi bi-card-image" style={{ color: "purple" }}></i>
+          <img className={`${style.icon} Icon`} src={card} alt="card" />
           <h2>Photo / Video</h2>
         </div>
         <div className={style.option}>
-          <i className="bi bi-emoji-smile-fill" style={{ color: "green" }}></i>
+          <img className={`${style.icon} Icon`} src={emoji} alt="emoji" />
           <h2>Feeling / Activity</h2>
         </div>
       </div>

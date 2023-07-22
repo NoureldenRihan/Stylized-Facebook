@@ -17,8 +17,12 @@
   width: 25%;
 }
 
-.logo i {
+.logo {
   font-size: 3rem;
+}
+
+.icon {
+  filter: invert(1);
 }
 
 .searchbar {
@@ -125,7 +129,7 @@
   width: 25%;
 }
 
-.profile i {
+.profile .imgIcon {
   position: relative;
   font-size: 2.2rem;
   display: block;

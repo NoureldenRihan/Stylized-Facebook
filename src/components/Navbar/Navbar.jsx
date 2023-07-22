@@ -1,23 +1,19 @@
 import style from "./Navbar.module.css";
+import FacebookLogo from "../../SVGs/facebook.svg";
+import search from "../../SVGs/search.svg";
+import home from "../../SVGs/house.svg";
+import video from "../../SVGs/camera-video.svg";
+import bag from "../../SVGs/bag.svg";
+import people from "../../SVGs/people.svg";
+import games from "../../SVGs/dpad.svg";
+import hex from "../../SVGs/hexagon.svg";
+import messenger from "../../SVGs/messenger.svg";
+import bell from "../../SVGs/bell-fill.svg";
 
 function Navbar() {
   // SearchClick() Clears the Searchbar on Click
   function searchClick() {
     document.getElementById("search").value = "";
-  }
-
-  // feedClick() removes any fill class from any other feed Icon and applies it to the clicked target Icon
-  function feedClick(e) {
-    [...document.getElementsByClassName("feedicon")].forEach((element) => {
-      if (element.classList.contains("filled")) {
-        element.className = element.className.slice(0, -12);
-      }
-    });
-
-    if (!e.target.classList.contains("filled")) {
-      let fillclass = e.target.className + "-fill filled";
-      e.target.className = fillclass;
-    }
   }
 
   return (
@@ -26,58 +22,73 @@ function Navbar() {
         <div className={style.search}>
           <div className={style.logo}>
             <a href="/">
-              <i className="Icon Logo bi bi-facebook"></i>
+              <img
+                className={`${style.icon} Icon`}
+                src={FacebookLogo}
+                alt="Facebook Logo"
+              />
             </a>
           </div>
           <div className={style.searchbar}>
             <input id="search" type="text" placeholder="Search Facebook" />
-            <i className="Icon bi bi-search" onClick={searchClick}></i>
+            <img
+              className={`${style.icon} Icon`}
+              src={search}
+              alt="seacrh"
+              onClick={searchClick}
+            />
           </div>
         </div>
         <div className={style.feed}>
           <div className={style.icons}>
             <div className={style.miniFeedLogo}>
-              <i className="Icon bi bi-facebook"></i>
+              <img
+                className={`${style.icon} Icon`}
+                src={FacebookLogo}
+                alt="Facebook Logo"
+              />
             </div>
             <div className={style.feedIcon}>
-              <i
-                className="Icon feedicon home bi bi-house-door"
-                onClick={feedClick}
-              ></i>
+              <img className={`${style.icon} Icon`} src={home} alt="home" />
             </div>
             <div className={style.feedIcon}>
-              <i
-                className="Icon feedicon videos bi bi-camera-video"
-                onClick={feedClick}
-              ></i>
+              <img className={`${style.icon} Icon`} src={video} alt="video" />
             </div>
             <div className={style.feedIcon}>
-              <i
-                className="Icon feedicon store bi bi-bag"
-                onClick={feedClick}
-              ></i>
+              <img className={`${style.icon} Icon`} src={bag} alt="bag" />
             </div>
             <div className={style.feedIcon}>
-              <i
-                className="Icon feedicon groups bi bi-people"
-                onClick={feedClick}
-              ></i>
+              <img className={`${style.icon} Icon`} src={people} alt="people" />
             </div>
             <div className={style.feedIcon}>
-              <i
-                className="Icon feedicon games bi bi-dpad"
-                onClick={feedClick}
-              ></i>
+              <img className={`${style.icon} Icon`} src={games} alt="games" />
             </div>
             <div className={style.miniFeedIcon}>
-              <i className="Icon home bi bi-search"></i>
+              <img
+                className={`${style.icon} Icon`}
+                src={search}
+                alt="seacrh"
+                onClick={searchClick}
+              />
             </div>
           </div>
         </div>
         <div className={style.profile}>
-          <i className="Icon bi bi-hexagon"></i>
-          <i className="Icon bi bi-messenger"></i>
-          <i className="Icon bi bi-bell-fill"></i>
+          <img
+            className={`${style.icon} Icon ${style.imgIcon}`}
+            src={hex}
+            alt="hex"
+          />
+          <img
+            className={`${style.icon} Icon ${style.imgIcon}`}
+            src={messenger}
+            alt="messenger"
+          />
+          <img
+            className={`${style.icon} Icon ${style.imgIcon}`}
+            src={bell}
+            alt="bell"
+          />
           <div className={style.profilePic}>
             <img src="/Images/Nourelden Rihan Profile Pic.jpg" alt="Profile" />
           </div>

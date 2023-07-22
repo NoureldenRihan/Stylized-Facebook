@@ -35,9 +35,11 @@
   transform: translateY(-2px);
 }
 
-.sideItems i {
-  font-size: 1.8rem;
-  color: yellow;
+.icon {
+  filter: invert(1);
+}
+
+.sideItems img {
   padding: 0 15px 0 0;
 }
 
@@ -51,10 +53,6 @@
   }
   .pictureArea h2 {
     font-size: 1.2rem;
-  }
-
-  .sideItems i {
-    font-size: 1.4rem;
   }
 
   .sideItems h2 {

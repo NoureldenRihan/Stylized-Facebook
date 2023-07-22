@@ -1,4 +1,5 @@
 import style from "./RightSidebar.module.css";
+import gift from "../../SVGs/gift.svg";
 
 function RightSidebar() {
   return (
@@ -38,7 +39,7 @@ function RightSidebar() {
       </div>
       <div className="sideSection">
         <div className={style.events}>
-          <i className="bi bi-gift-fill"></i>
+          <img className={`${style.icon} Icon`} src={gift} alt="gift" />
           <h2>Birthday Nourelden Rihan</h2>
         </div>
       </div>

@@ -31,9 +31,8 @@
   height: 2px;
 }
 
-.option i {
-  padding: 2px 3px;
-  font-size: 1.7rem;
+.option img {
+  padding: 2px 7px;
 }
 
 .optionName {
@@ -59,12 +58,16 @@
   position: relative;
 }
 
+.icon {
+  filter: invert(1);
+}
+
 .createStory img {
   width: 100%;
   height: 80%;
 }
 
-.createStory i {
+.createStory .holder {
   position: absolute;
   background-color: white;
   color: black;
@@ -74,6 +77,11 @@
   height: 28px;
   bottom: 25px;
   cursor: pointer;
+}
+
+.createStory .holder img {
+  width: 100%;
+  height: 100%;
 }
 
 .createStory h2 {
